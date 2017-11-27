@@ -1,0 +1,7 @@
+CREATE TABLE  `customers` (
+`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`login` VARCHAR( 20 ) NOT NULL ,
+`password` VARCHAR( 20 ) NOT NULL ,
+`name` VARCHAR( 20 ) NOT NULL ,
+`forename` VARCHAR( 20 ) NOT NULL
+) ENGINE = INNODB
